@@ -1,0 +1,65 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ===== Environnements / secrets =====
+.venv/
+venv/
+env/
+*.env
+.env
+work/.env
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Logs =====
+*.log
+
+# ===== Données médicales et sorties générées =====
+work/patients/
+work/results/
+work/patient_test/
+work/patient_summary.json
+work/rapport_radiologique.md
+work/pipeline_flow.html
+work/pipeline_overview.html
+
+# ===== Artefacts package local =====
+*.whl
+dcm_seg_nodules-1.0.0-py3-none-any/
+
+# ===== OS / éditeur =====
+.DS_Store
+.vscode/
+.idea/
+.pptx
+.pdf
+
+*.zip
+*.whl
+*.tar.gz
+
+
+# Documents et ressources du hackathon (NDA)
+*.pdf
+*.pptx
+*.xlsx
+*.docx
+.~lock.*
+
+# Python et Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+Untitled.ipynb
+
+# Dossiers de données locaux
+data/
+results/
